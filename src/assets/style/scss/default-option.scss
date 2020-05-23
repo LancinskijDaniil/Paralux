@@ -1,0 +1,17 @@
+$greenColor: #88c724;
+$grayColor: #f0f4f7;
+
+@mixin primary-btn {
+  text-transform: uppercase;
+  background-color: $greenColor;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  border: 2px solid $greenColor;
+
+  &:hover {
+    background-color: transparent;
+    color: $greenColor;
+    transition: color, background-color 0.3s 0s;
+  }
+}
